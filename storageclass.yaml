@@ -1,0 +1,19 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  annotations:
+    storageclass.beta.kubernetes.io/is-default-class: "true"
+  creationTimestamp: 2019-05-02T22:05:13Z
+  labels:
+    addonmanager.kubernetes.io/mode: EnsureExists
+    kubernetes.io/cluster-service: "true"
+  name: standard
+  resourceVersion: "274"
+  selfLink: /apis/storage.k8s.io/v1/storageclasses/standard
+  uid: 5c6170ec-6d26-11e9-9e20-42010a9a0139
+parameters:
+  type: pd-standard
+  zone: europe-west2-a
+provisioner: kubernetes.io/gce-pd
+reclaimPolicy: Delete
+volumeBindingMode: Immediate
