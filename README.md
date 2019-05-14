@@ -1,4 +1,4 @@
-# GKE-and-Sample-App
+# Python Docker GKE
 
 ## What is GKE?
 Google Container Engine(GKE) is a Management and orchestration system for Containers. It is a container platform which Kubernetes can manage, in short, it is a hosted Kubernetes. Goal of GKE is to increase the productivity of devops teams by hiding the complexity of setting up the k8s cluster, overlay network, etc by simple user interface
